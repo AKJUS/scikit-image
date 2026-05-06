@@ -18,7 +18,6 @@ env:
 
 jobs:
   test_skimage_windows:
-    if: false # temporarily disable
     name: windows-cp${{ matrix.python-version }}-${{ matrix.OPTIONS_NAME }}
     runs-on: windows-latest
 

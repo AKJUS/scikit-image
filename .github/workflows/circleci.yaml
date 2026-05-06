@@ -3,7 +3,6 @@ permissions:
   contents: read
 jobs:
   circleci_artifacts_redirector_job:
-    if: false # temporarily disable
     permissions:
       statuses: write
     runs-on: ubuntu-latest

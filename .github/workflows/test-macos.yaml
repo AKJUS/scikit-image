@@ -16,7 +16,6 @@ env:
 
 jobs:
   test_skimage_macos:
-    if: false # temporarily disable
     name: ${{ matrix.os }}-cp${{ matrix.python-version }}
     runs-on: ${{ matrix.os }}
 
