@@ -70,7 +70,7 @@ jobs:
         env:
           PIP_FLAGS: ${{ inputs.PIP_FLAGS }}
         run: |
-          pip install dist/*.whl
+          pip install $PIP_FLAGS dist/*.whl
 
       - name: Install sdist
         if: ${{ inputs.INSTALL_FROM_SDIST == 1 }}

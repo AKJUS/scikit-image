@@ -75,3 +75,4 @@ jobs:
             ./dist/*.whl
             ./dist/*.tar.gz
           if-no-files-found: error
+          overwrite: true
